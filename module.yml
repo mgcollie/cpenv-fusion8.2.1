@@ -1,0 +1,19 @@
+command:
+    win:
+        path: C:/Program Files/Blackmagic Design/Fusion 8.2/Fusion
+        args: []
+    linux:
+        path: /opt/BlackmagicDesign/FusionRenderNode8/FusionRenderNode
+        args: []
+
+environment:
+    FUSION_LICENSE_SERVER:
+        - 'fusionlicense.dkp.com'
+    FUSION_PLUGINS8:
+        - '$MODULE/plug-ins/$PLATFORM'
+
+dependencies:
+    pip: []
+    git: []
+include: []
+
