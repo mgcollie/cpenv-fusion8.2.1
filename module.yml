@@ -1,6 +1,6 @@
 command:
     win:
-        path: C:/Program Files/Blackmagic Design/Fusion 8.2/Fusion
+        path: C:/Program Files/Blackmagic Design/Fusion 8/Fusion
         args: []
     linux:
         path: /opt/BlackmagicDesign/FusionRenderNode8/FusionRenderNode
